@@ -1,0 +1,12 @@
+Kepp the project folder into desktop
+
+open power shell
+
+write following commands
+
+cd desktop
+cd ecom
+python manage.py runserver
+
+open Browser & go
+localhost/8000
