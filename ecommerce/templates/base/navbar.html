@@ -17,16 +17,17 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item {% if request.path == home_url %}active{% endif %}">
         <a class="nav-link" href="{{ home_url }}">Home <span class="sr-only">(current)</span></a>
-      </li>
+      </li> <!-- r1a
       <li class="nav-item {% if request.path == contact_url %}active{% endif %}">
         <a class="nav-link" href="{{ contact_url }}">Contacts</a>
-      </li>
+      </li> -->
       <li class="nav-item {% if request.path == product_list_url %}active{% endif %}">
         <a class="nav-link" href="{{product_list_url}}">Products</a>
       </li>
+      <!-- r1a
       <li class="nav-item {% if request.path == about_url %}active{% endif %}">
         <a class="nav-link" href="{{about_url}}">About</a>
-      </li>
+      </li>-->
       {% if user.is_authenticated %}
         <li class="nav-item {% if request.path == logout_url %}active{% endif %}">
           <a class="nav-link" href="{{ logout_url }}">Logout</a>
@@ -39,9 +40,10 @@
           <a class="nav-link" href="{{ login_url }}">Login</a>
         </li>
       {% endif %}
+      <!-- r1a
       <li class="nav-item {% if request.path == cart_url %}active{% endif %}">
         <a class="nav-link" href="{{ cart_url }}">{{ request.session.cart_items }} <i class="fas fa-shopping-cart"></i> </a>
-      </li>
+      </li>-->
     </ul>
     {% include 'search/snippets/search-form.html' %}
   </div>
