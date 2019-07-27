@@ -1,0 +1,44 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "title": "T-Shirt",
+    "description": "This is a great T-shirt by Nike.",
+    "price": "20.00",
+    "image": "products/305129/305129.jpg",
+    "slug": "tshirt",
+    "featured": false,
+    "active": true,
+    "timestamp": "2019-03-18T13:31:31.052Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "title": "Hat",
+    "description": "Stylish hat for summer heat.",
+    "price": "0.00",
+    "image": "",
+    "slug": "hat",
+    "featured": false,
+    "active": true,
+    "timestamp": "2019-03-18T13:31:31.052Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "title": "Apple Watch",
+    "description": "This is a smart watch by apple. Series 4 is much faster and responsive.",
+    "price": "120.00",
+    "image": "products/12462/12462.png",
+    "slug": "apple_watch",
+    "featured": true,
+    "active": true,
+    "timestamp": "2019-03-26T06:58:44.107Z"
+  }
+}
+]
